@@ -2,19 +2,21 @@
 XiBaoExpressway 西宝高速公路模拟
 
 
-# 写在前面
-
+# 写在前面 before reading
+It's just my Java lab. For reference only. Java features used are: encapsulation, inheritance, polymorphism, packages, GUI, Swing, and collection classes. 
+It takes a week, about a thousand lines.
 只是我的Java课程的一个大作业，仅供参考。使用到的Java特性有：封装、继承、多态、包、GUI、Swing、集合类。耗时一周，一千行左右。
 ![GUI演示](https://img-blog.csdnimg.cn/0b6540608c32411280ccc1333bc23076.png#pic_center)
 
 
-# 一、仿真模拟的具体要求
+# 一、仿真模拟的具体要求 requirements for simulation
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3e2367d244954fb3822f1b781bbd2d32.png#pic_center)
 
 
-# 二、类的设计
+# 二、类的设计 class diagrams
 
+Considering that program simulation is complex, priority is given to thinking about the association between classes, which is described by class diagrams below.
 考虑到程序仿真比较复杂，优先思考类与类之间的关联，下面用类图来描述。
 
 ## 2.1 抽象父类PubVehicles
@@ -41,7 +43,7 @@ Timer类，用于记录时间，以及刷新GUI界面，从而实现运动的画
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/928816d02e094dc3986e9ac3a809a2f3.png#pic_center)
 DisplayToolkit类主要运用GUI和Swing的组件，创建可视化用户界面。
 
-# 三、图像显示
+# 三、图像显示 images
 这里主要是让小车运动起来的实现，小车的PNG图片如下（背景透明）
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/323ce83ddd3744f7938d3ab9ed0fc7ef.png#pic_center)
 images文件夹与src文件夹放置在同一目录下即可。
@@ -61,7 +63,7 @@ lb.setIcon(ii);
 Expressway.panel_cars.add(lb);
 ```
 
-# 四、代码实现
+# 四、代码实现 codes(part)
 完整代码、PNG素材、类图设计，都包含在该项目文件中，请自行下载。
 
 下面是预览效果
