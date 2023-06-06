@@ -1,5 +1,7 @@
 # XiBaoExpressway
-XiBaoExpressway 西宝高速公路模拟
+![](https://img.shields.io/github/repo-size/Iamnotphage/XiBaoExpressway) ![](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue) ![](https://img.shields.io/github/stars/Iamnotphage/XiBaoExpressway?style=social)
+
+Java课程大作业西宝高速公路模拟
 
 
 # 写在前面 before reading
